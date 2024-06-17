@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Newton: Online marketplace for research papers 📜
+Newton is an online marketplace for buying and viewing research papers. The app uses AWS S3 to store research paper PDFs and AWS Lambda to asynchronously process the PDFs to create preview versions from the originals. Integrated Stripe payments with Stripe webhooks to provide complete payment functionality.
+<br>
+![Screenshot (132)](https://github.com/shreyashnalawade1/newton-v2/assets/108988869/7c073737-5d29-44a9-bce0-342f232225a1)
+![Screenshot (134)](https://github.com/shreyashnalawade1/newton-v2/assets/108988869/17663f52-607b-4041-bbbf-c796246a48bc)
+![Screenshot (135)](https://github.com/shreyashnalawade1/newton-v2/assets/108988869/837a7a08-5374-469c-b699-054d3b4a55fa)
+![Screenshot (136)](https://github.com/shreyashnalawade1/newton-v2/assets/108988869/b01410db-8d58-4db0-8c33-6e102737766b)
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Features 
+### Online Marketplace: 
+A platform for buying and viewing research papers.
+### AWS S3 Storage: 
+Stores research paper PDFs securely.
+### AWS Lambda Processing:
+Asynchronously processes PDFs to create preview versions from the originals.
+### Integrated Stripe Payments:
+Facilitates secure payment transactions.
+### Stripe Webhooks:
+Provides complete payment functionality with real-time updates and notifications.
